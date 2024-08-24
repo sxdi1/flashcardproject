@@ -27,8 +27,10 @@ public class MyFrame extends JFrame {
 
 	ArrayList<String> deckTitles = new ArrayList<String>();
 
-	ImageIcon image = new ImageIcon("./imgs/logo-flashcard.png");
-	ImageIcon icon = new ImageIcon("./imgs/icon-flashcard.png");
+	
+	ImageIcon image = new ImageIcon(this.getClass().getResource("/imgs/logo-flashcard.png"));
+	ImageIcon icon = new ImageIcon(this.getClass().getResource("/imgs/icon-flashcard.png"));
+
 
 	//private MyFrame frame;
 
